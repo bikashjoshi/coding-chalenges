@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12B03082-2C1F-4899-A74E-2D1981F4842F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CodingChallenges</RootNamespace>
+    <AssemblyName>CodingChallenges</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayChallenges\BinarySearchInRotatedArray.cs" />
+    <Compile Include="ArrayChallenges\DutchFlagSorting.cs" />
+    <Compile Include="ArrayChallenges\MedianOfTwoSortedArrays.cs" />
+    <Compile Include="ArrayChallenges\ProductExceptSelf.cs" />
+    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="DynamicProgramming\KadanesToFindLargestSum.cs" />
+    <Compile Include="DynamicProgramming\KnapSack.cs" />
+    <Compile Include="DynamicProgramming\LongestIncreasingSubsequence.cs" />
+    <Compile Include="DynamicProgramming\MaximalSquare.cs" />
+    <Compile Include="DynamicProgramming\Staircase.cs" />
+    <Compile Include="GraphChallenges\BipartiteCheck.cs" />
+    <Compile Include="GraphChallenges\CycleDetectorUndirectedGraph.cs" />
+    <Compile Include="GraphChallenges\CycleDetectoreDirectedGraph.cs" />
+    <Compile Include="GraphChallenges\MstKruskalAlgorithm.cs" />
+    <Compile Include="GraphChallenges\MstPrimsAlgorithm.cs" />
+    <Compile Include="GraphChallenges\ShortestPathBreakingThroughWalls.cs" />
+    <Compile Include="GraphChallenges\WordSearch.cs" />
+    <Compile Include="Heap.cs" />
+    <Compile Include="LinkedListChallenges\MergeTwoSortedList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ArrayChallenges\3Sum.cs" />
+    <Compile Include="GraphChallenges\BellmanFord.cs" />
+    <Compile Include="Puzzle\NQueens.cs" />
+    <Compile Include="Puzzle\SnakeAndLadder.cs" />
+    <Compile Include="StackAndQueueChallenges\ValidParenthesisString.cs" />
+    <Compile Include="GraphChallenges\CourseSorting.cs" />
+    <Compile Include="LinkedListChallenges\DetectionOfCircularLinkedList.cs" />
+    <Compile Include="GraphChallenges\Dijkstra.cs" />
+    <Compile Include="StringChallenges\GroupingAnagram.cs" />
+    <Compile Include="Misc\IsHappyNumber.cs" />
+    <Compile Include="GraphChallenges\Island.cs" />
+    <Compile Include="ArrayChallenges\SecondLargestForLastStoneRemainning.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
+    <Compile Include="LinkedListChallenges\LRUCache.cs" />
+    <Compile Include="ArrayChallenges\MaxProfitOnStock.cs" />
+    <Compile Include="StackAndQueueChallenges\QueueFromTwoStacks.cs" />
+    <Compile Include="HeapChallenges\RunningMedian.cs" />
+    <Compile Include="StackAndQueueChallenges\StackFromTwoQueues.cs" />
+    <Compile Include="StringChallenges\ValidAnagram.cs" />
+    <Compile Include="TreeChallenges\BinarySearchTreeBalanceOperation.cs" />
+    <Compile Include="TreeChallenges\BinarySearchTreeBalanceDetector.cs" />
+    <Compile Include="TreeChallenges\BinarySearchTreeConstruction.cs" />
+    <Compile Include="TreeChallenges\BinaryTreeConstruction.cs" />
+    <Compile Include="TreeChallenges\BinaryTreeDiameter.cs" />
+    <Compile Include="TreeChallenges\TreeNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
