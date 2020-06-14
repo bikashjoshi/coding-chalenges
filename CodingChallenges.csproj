@@ -51,6 +51,7 @@
     <Compile Include="DynamicProgramming\KnapSack.cs" />
     <Compile Include="DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="DynamicProgramming\MaximalSquare.cs" />
+    <Compile Include="DynamicProgramming\PaintingHouses.cs" />
     <Compile Include="DynamicProgramming\Staircase.cs" />
     <Compile Include="GraphChallenges\BipartiteCheck.cs" />
     <Compile Include="GraphChallenges\CycleDetectorUndirectedGraph.cs" />

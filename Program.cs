@@ -19,6 +19,7 @@ namespace CodingChallenges
             DynamicProgramming.LongestCommonSubsequence.RunSample();
             DynamicProgramming.LongestIncreasingSubsequence.RunSample();
             DynamicProgramming.MaximalSquare.RunSample();
+            DynamicProgramming.PaintingHouses.RunSample();
             DynamicProgramming.Staircase.RunSample();
 
             GraphChallenges.BellmanFord.RunSample();
