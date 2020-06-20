@@ -24,8 +24,9 @@ namespace CodingChallenges
 
             GraphChallenges.BellmanFord.RunSample();
             GraphChallenges.BipartiteCheck.RunSample();
+            GraphChallenges.CheapestFlightWithinKStops.RunSample();
             GraphChallenges.CourseSorting.RunSample();
-            GraphChallenges.CycleDetectoreDirectedGraph.RunSample();
+            GraphChallenges.CycleDetectorDirectedGraph.RunSample();
             GraphChallenges.Dijkstra.RunSample();
             GraphChallenges.Island.RunSample();
             GraphChallenges.MstKruskalAlgorithm.RunSample();

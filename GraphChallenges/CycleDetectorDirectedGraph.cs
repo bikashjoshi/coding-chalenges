@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CodingChallenges.GraphChallenges
 {
-    internal class CycleDetectoreDirectedGraph
+    internal class CycleDetectorDirectedGraph
     {
         public static bool CanFinish(int numCourses, int[][] prerequisites)
         {
@@ -35,6 +35,8 @@ namespace CodingChallenges.GraphChallenges
                 {
                     return true;
                 }
+
+                visited.Add(vertex);
             }
 
             return false;

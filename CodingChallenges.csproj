@@ -54,8 +54,9 @@
     <Compile Include="DynamicProgramming\PaintingHouses.cs" />
     <Compile Include="DynamicProgramming\Staircase.cs" />
     <Compile Include="GraphChallenges\BipartiteCheck.cs" />
+    <Compile Include="GraphChallenges\CheapestFlightWithinKStops.cs" />
     <Compile Include="GraphChallenges\CycleDetectorUndirectedGraph.cs" />
-    <Compile Include="GraphChallenges\CycleDetectoreDirectedGraph.cs" />
+    <Compile Include="GraphChallenges\CycleDetectorDirectedGraph.cs" />
     <Compile Include="GraphChallenges\MstKruskalAlgorithm.cs" />
     <Compile Include="GraphChallenges\MstPrimsAlgorithm.cs" />
     <Compile Include="GraphChallenges\ShortestPathBreakingThroughWalls.cs" />
