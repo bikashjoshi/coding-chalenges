@@ -57,14 +57,51 @@ namespace CodingChallenges.DynamicProgramming
                 return dp[i][j].Append(longest);
             }
         }
-  
+
+        private static StringBuilder LCSBottomup(string text1, string text2)
+        {
+            var m = text1.Length;
+            var n = text2.Length;
+            var dp = new StringBuilder[m + 1][];
+            for (int i = 0; i <= m; i++)
+            {
+                dp[i] = new StringBuilder[n + 1];
+                for (int j = 0; j <= n; j++)
+                {
+                    dp[i][j] = new StringBuilder();                                      
+                }
+            }
+
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (text1[i] == text2[j])
+                    {
+                        dp[i + 1][j + 1].Append(dp[i][j]);
+                        dp[i + 1][j + 1].Append(text1[i]);
+                    }
+                    else
+                    {
+                        var max = dp[i][j + 1].Length > dp[i + 1][j].Length ? dp[i][j + 1] : dp[i + 1][j];
+                        dp[i + 1][j + 1].Append(max);
+                    }
+                }
+            }
+
+
+            return dp[m][n];
+        }
+
         public static void RunSample()
         {
             ConsoleHelper.WriteGreen("*** Longest Common Sequence ***");
             var text1 = "szulspmhwpazoxijwbq";
             var text2 = "mhunuzqrkzsnidwbun";
-            var longest = LongestCommonSubsequenceWithDP(text1, text2);           
+            var longest = LongestCommonSubsequenceWithDP(text1, text2);
+            var longest2 = LCSBottomup(text1, text2);
             Console.WriteLine($"The longest common sequence of {text1} and {text2} is {longest} with length {longest.Length}.");
+            Console.WriteLine($"With Bottom up, the longest common sequence of {text1} and {text2} is {longest2} with length {longest2.Length}.");
             ConsoleHelper.WriteBlue("-------------------------------------------------------");
         }
     }
