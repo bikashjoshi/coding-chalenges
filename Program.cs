@@ -50,6 +50,7 @@ namespace CodingChallenges
             StackAndQueueChallenges.CheckValidString.RunSample();
 
             StringChallenges.GroupingAnagram.RunSample();
+            StringChallenges.PatternSearchWithKmp.RunSample();
             StringChallenges.ValidAnagram.RunSample();
 
             TreeChallenges.BinarySearchTreeBalanceDetector.RunSample();

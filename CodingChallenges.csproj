@@ -83,6 +83,7 @@
     <Compile Include="StackAndQueueChallenges\QueueFromTwoStacks.cs" />
     <Compile Include="HeapChallenges\RunningMedian.cs" />
     <Compile Include="StackAndQueueChallenges\StackFromTwoQueues.cs" />
+    <Compile Include="StringChallenges\PatternSearchWithKmp.cs" />
     <Compile Include="StringChallenges\ValidAnagram.cs" />
     <Compile Include="TreeChallenges\BinarySearchTreeBalanceOperation.cs" />
     <Compile Include="TreeChallenges\BinarySearchTreeBalanceDetector.cs" />
