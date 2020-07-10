@@ -70,6 +70,7 @@
     <Compile Include="Puzzle\NQueens.cs" />
     <Compile Include="Puzzle\SnakeAndLadder.cs" />
     <Compile Include="Puzzle\Sudoku.cs" />
+    <Compile Include="Puzzle\TowersOfHanoi.cs" />
     <Compile Include="StackAndQueueChallenges\ValidParenthesisString.cs" />
     <Compile Include="GraphChallenges\CourseSorting.cs" />
     <Compile Include="LinkedListChallenges\DetectionOfCircularLinkedList.cs" />

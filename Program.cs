@@ -45,6 +45,7 @@ namespace CodingChallenges
             Puzzle.NQueens.RunSample();
             Puzzle.SnakeAndLadder.RunSample();
             Puzzle.Sudoku.RunSample();
+            Puzzle.TowersOfHanoi.RunSample();
 
             StackAndQueueChallenges.QueueFromTwoStacks<int>.RunSample();
             StackAndQueueChallenges.StackFromTwoQueues<int>.RunSample();
