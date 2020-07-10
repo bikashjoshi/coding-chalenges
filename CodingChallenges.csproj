@@ -69,6 +69,7 @@
     <Compile Include="GraphChallenges\BellmanFord.cs" />
     <Compile Include="Puzzle\NQueens.cs" />
     <Compile Include="Puzzle\SnakeAndLadder.cs" />
+    <Compile Include="Puzzle\Sudoku.cs" />
     <Compile Include="StackAndQueueChallenges\ValidParenthesisString.cs" />
     <Compile Include="GraphChallenges\CourseSorting.cs" />
     <Compile Include="LinkedListChallenges\DetectionOfCircularLinkedList.cs" />
